@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Program Settings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .settings-container {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+        .setting {
+            margin-bottom: 10px;
+        }
+        label {
+            margin-left: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="settings-container">
+        <h2>Program Settings</h2>
+        <div class="setting">
+            <input type="checkbox" id="diamonds" name="diamonds">
+            <label for="diamonds">Diamonds</label>
+        </div>
+        <div class="setting">
+            <input type="checkbox" id="clubs" name="clubs" checked>
+            <label for="clubs">Clubs</label>
+        </div>
+        <div class="setting">
+            <input type="checkbox" id="hearts" name="hearts" checked>
+            <label for="hearts">Hearts</label>
+        </div>
+        <div class="setting">
+            <input type="checkbox" id="spades" name="spades" checked>
+            <label for="spades">Spades</label>
+        </div>
+        <div class="setting">
+            <input type="checkbox" id="negative_values" name="negative_values" checked>
+            <label for="negative_values">Negative Values</label>
+        </div>
+    </div>
+    <script>
+        document.getElementById('diamonds').checked = false;
+        document.getElementById('clubs').checked = true;
+        document.getElementById('hearts').checked = true;
+        document.getElementById('spades').checked = true;
+        document.getElementById('negative_values').checked = true;
+    </script>
+</body>
+</html>
