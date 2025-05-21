@@ -158,10 +158,10 @@ This is a Python-based market making simulation game where the player competes a
 ## **How to Run**
 
 1. Ensure you have Python installed (version 3.6 or higher is recommended).
-2. Copy the code into a file named `market_game.py`.
+2. Copy the code into a file named `main.py`.
 3. Run the game using:
    ```bash
-   python market_game.py
+   python main.py
    ```
 4. Follow the interactive prompts to set up and play the game.
 
